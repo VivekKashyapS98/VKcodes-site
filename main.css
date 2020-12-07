@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    cursor: default;
+}
+
+.my-name {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+}
+
+.mainpage-top {
+    background: #001220;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 800px;
+}
+
+.intro-info {
+    padding: 100px;
+}
+
+.intro-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .my-name {
+        font-size: 50px;
+    }
+    .intro-info {
+        padding: 50px;
+    }
+}
