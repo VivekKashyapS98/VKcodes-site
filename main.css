@@ -153,6 +153,10 @@ img {
         flex-direction: row;
         animation: load-from-right .2s ease-in;
     }
+    .intro-about {
+        width: auto;
+        padding: auto;
+    }
     .key-skill {
         width: auto;
     }
