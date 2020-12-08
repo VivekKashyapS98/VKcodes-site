@@ -6,6 +6,10 @@
     color: #001220;
 }
 
+a {
+    text-decoration: none;
+}
+
 .my-name {
     color: white;
     font-size: 80px;
@@ -14,6 +18,15 @@
 
 img {
     margin: 20px;
+}
+
+.links {
+    filter: invert(1);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    animation: load-from-top .2s ease-in;
 }
 
 .mainpage-top {
@@ -124,7 +137,21 @@ img {
     }
 }
 
+@keyframes load-from-top {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .links {
+        flex-direction: row;
+    }
     .mainpage-top {
         height: 950px;
     }

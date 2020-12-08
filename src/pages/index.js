@@ -1,5 +1,10 @@
 import React from "react";
 import Server from '../images/server.svg';
+import Linkedin from '../images/linkedin.svg';
+import Github from '../images/github.svg';
+import Facebook from '../images/facebook.svg';
+import Instagram from '../images/instagram.svg';
+import Twitter from '../images/twitter.svg';
 import Database from '../images/database.svg';
 import UIDesign from '../images/ui-design.svg';
 import '../../main.css';
@@ -7,6 +12,13 @@ import '../../main.css';
 export default function Home({data}) {
   return <React.Fragment>
     <div className="mainpage-top">
+    <div className="links">
+      <a href="https://www.linkedin.com/in/vivek-s-886bb5144/" target="_blank" rel="noopener noreferrer"><img style={{color: 'white', width: '25px'}} src={Linkedin} alt="LinkedIn"/></a>
+      <a href="https://github.com/VivekKashyapS98" target="_blank" rel="noopener noreferrer"><img style={{color: 'white', width: '25px'}} src={Github} alt="GitHub"/></a>
+      <a href="https://www.facebook.com/vivek.kashyap.5492216" target="_blank" rel="noopener noreferrer"><img style={{color: 'white', width: '25px'}} src={Facebook} alt="Facebook"/></a>
+      <a href="https://www.instagram.com/vivek.kashyap.s/" target="_blank" rel="noopener noreferrer"><img style={{color: 'white', width: '25px'}} src={Instagram} alt="Instagram"/></a>
+      <a href="https://twitter.com/Vivek_S98" target="_blank" rel="noopener noreferrer"><img style={{color: 'white', width: '25px'}} src={Twitter} alt="Twitter"/></a>
+    </div>
       <div className="intro-info">
         <span className="my-name">Hi! I'm </span><span className="my-name" style={{color: '#21fcab'}}>Vivek.</span><br />
         <span className="my-name" style={{padding:'0 0 0 80px'}}>I'm a </span><span className="my-name" style={{color: '#21fcab'}}>Web Developer..</span>
@@ -64,26 +76,30 @@ export default function Home({data}) {
         <div style={{margin: '0 10px'}}>
           <h4>Technologies Used:</h4>
           <ul>
-            <li><b>Front-end:</b> JavaScript(React.js, Redux,js), HTML/CSS, MaterialUI.</li>
-            <li><b>Back-end:</b> Node.js, Express.js.</li>
-            <li><b>Database:</b> MongoDB.</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript(React.js, Redux,js)</li>
+            <li>MaterialUI</li>
+            <li>Node.js, Express.js</li>
+            <li>MongoDB</li>
           </ul>
         </div>
+        <a href="https://tweetbook-in.herokuapp.com" target="_blank" rel="noopener noreferrer">visit TweetBook</a>
         <iframe title="TweetBook" style={{width: '100%',height: '500px', borderRadius: '10px'}} src="https://tweetbook-in.herokuapp.com" />
       </div>
+      <br />
       <div className="projects">
         <h2>HotPopTime</h2>
         <p>A Movie and TV site</p>
         <div style={{margin: '0 10px'}}>
           <h4>Technologies Used:</h4>
           <ul>
-            <li>JavaScript(React.js), HTML/CSS, Bootstrap.</li>
-            <li></li>
+            <li>HTML/CSS</li>
+            <li>JavaScript(React.js)</li>
+            <li>Bootstrap</li>
           </ul>
         </div>
-        <div style={{width: '98%',height: '800px', borderRadius: '20px'}}>
+        <a href="https://hotpoptime-in.netlify.app" target="_blank" rel="noopener noreferrer">visit HotPopTime</a>
         <iframe title="HotPopTime" style={{width: '100%',height: '600px', borderRadius: '10px'}} src="https://hotpoptime-in.netlify.app" />
-        </div>
       </div>
     </div>
   </React.Fragment>
