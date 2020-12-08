@@ -155,10 +155,10 @@ img {
     }
     .intro-about {
         width: auto;
-        padding: auto;
+        padding: 5px;
     }
     .key-skill {
-        width: 90%;
+        width: 200px;
     }
     .mainpage-top {
         height: 950px;
