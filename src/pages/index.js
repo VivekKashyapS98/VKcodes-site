@@ -84,7 +84,7 @@ export default function Home({data}) {
           </ul>
         </div>
         <a href="https://tweetbook-in.herokuapp.com" target="_blank" rel="noopener noreferrer">visit TweetBook</a>
-        <iframe title="TweetBook" style={{width: '100%',height: '500px', borderRadius: '10px'}} src="https://tweetbook-in.herokuapp.com/show/" />
+        <iframe title="TweetBook" style={{width: '100%',height: '500px', borderRadius: '10px'}} src="https://tweetbook-in.herokuapp.com/" />
       </div>
       <br />
       <div className="projects">
