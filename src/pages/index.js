@@ -1,9 +1,7 @@
 import React from "react";
-import Img from "gatsby-image";
 import Server from '../images/server.svg';
 import Database from '../images/database.svg';
 import UIDesign from '../images/ui-design.svg';
-import { graphql } from 'gatsby';
 import '../../main.css';
 
 export default function Home({data}) {
@@ -68,71 +66,25 @@ export default function Home({data}) {
           <ul>
             <li><b>Front-end:</b> JavaScript(React.js, Redux,js), HTML/CSS, MaterialUI.</li>
             <li><b>Back-end:</b> Node.js, Express.js.</li>
-            <li><b>Database:</b> MongoDB. </li>
+            <li><b>Database:</b> MongoDB.</li>
           </ul>
         </div>
-        <div className="skill-columns">
-          <Img fluid={data.TBOne.childImageSharp.fluid} />
-          <Img fluid={data.TBTwo.childImageSharp.fluid} />
-          <Img fluid={data.TBThree.childImageSharp.fluid} />
-          <Img fluid={data.TBFour.childImageSharp.fluid} />
-        </div>
+        <iframe title="TweetBook" style={{width: '100%',height: '500px', borderRadius: '10px'}} src="https://tweetbook-in.herokuapp.com" />
       </div>
-      <div className="Projects">
+      <div className="projects">
         <h2>HotPopTime</h2>
         <p>A Movie and TV site</p>
         <div style={{margin: '0 10px'}}>
           <h4>Technologies Used:</h4>
           <ul>
             <li>JavaScript(React.js), HTML/CSS, Bootstrap.</li>
+            <li></li>
           </ul>
         </div>
-        <div className="skill-columns">
-          <Img fluid={data.TBOne.childImageSharp.fluid} />
-          <Img fluid={data.TBTwo.childImageSharp.fluid} />
-          <Img fluid={data.TBThree.childImageSharp.fluid} />
-          <Img fluid={data.TBFour.childImageSharp.fluid} />
+        <div style={{width: '98%',height: '800px', borderRadius: '20px'}}>
+        <iframe title="HotPopTime" style={{width: '100%',height: '600px', borderRadius: '10px'}} src="https://hotpoptime-in.netlify.app" />
         </div>
       </div>
     </div>
   </React.Fragment>
 }
-
-export const fluidImage = graphql`
-  fragment fluidImage on File {
-    childImageSharp {
-      fluid(maxWidth: 500) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`;
-
-export const query = graphql`
-  query {
-    TBOne: file(relativePath: { eq: "TweetBook_welcome.png" }) {
-      ...fluidImage
-      }
-    TBTwo: file(relativePath: { eq: "TweetBook_Home.png" }) {
-      ...fluidImage
-      }
-    TBThree: file(relativePath: { eq: "TweetBook_User.png" }) {
-      ...fluidImage
-      }
-    TBFour: file(relativePath: { eq: "TweetBook_Notify.png" }) {
-      ...fluidImage
-      }
-    HPOne: file(relativePath: { eq: "HotPopTime_Movies.png" }) {
-      ...fluidImage
-      }
-    HPTwo: file(relativePath: { eq: "HotPopTime_TV.png" }) {
-      ...fluidImage
-      }
-    HPThree: file(relativePath: { eq: "HotPopTime_Details.png" }) {
-      ...fluidImage
-      }
-    HPFour: file(relativePath: { eq: "HotPopTime_Similar.png" }) {
-      ...fluidImage
-      }
-    }
-`;

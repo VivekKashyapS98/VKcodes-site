@@ -74,6 +74,7 @@ img {
 }
 
 .projects {
+    width: 95%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
