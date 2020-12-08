@@ -3,9 +3,11 @@
 * {
     font-family: 'Nunito', sans-serif;
     cursor: default;
+    color: #001220;
 }
 
 .my-name {
+    color: white;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
 }
@@ -72,7 +74,6 @@ img {
 }
 
 .projects {
-    margin: 0 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -81,18 +82,22 @@ img {
 }
 
 .para-1 {
+    color: white;
     animation: load-from-right .4s ease-in;
 }
 
 .para-2 {
+    color: white;
     animation: load-from-right .6s ease-in;
 }
 
 .para-3 {
+    color: white;
     animation: load-from-right .8s ease-in;
 }
 
 .para-4 {
+    color: white;
     animation: load-from-right 1s ease-in;
 }
 
