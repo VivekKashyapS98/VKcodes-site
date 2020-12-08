@@ -10,6 +10,10 @@
     font-family: 'Playfair Display', serif;
 }
 
+img {
+    margin: 20px;
+}
+
 .mainpage-top {
     background: #001220;
     padding: 10px;
@@ -24,20 +28,107 @@
 
 .intro-info {
     padding: 100px;
+    animation: load-from-bottom .4s linear;
+}
+
+.key-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+    background-color: whitesmoke;
+    border: #001220 solid 1px;
+    margin: 0 200px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.key-skill {
+    height: 600px;
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.skill-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .intro-about {
+    padding: 10px;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.projects {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-1 {
+    animation: load-from-right .4s ease-in;
+}
+
+.para-2 {
+    animation: load-from-right .6s ease-in;
+}
+
+.para-3 {
+    animation: load-from-right .8s ease-in;
+}
+
+.para-4 {
+    animation: load-from-right 1s ease-in;
+}
+
+@keyframes load-from-right {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes load-from-bottom {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .mainpage-top {
+        height: 950px;
+    }
     .my-name {
         font-size: xx-large;
     }
     .intro-info {
         padding: 50px;
+    }
+    .key-skills {
+        margin: 0 20px;
     }
 }
