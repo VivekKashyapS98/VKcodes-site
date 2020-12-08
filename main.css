@@ -61,7 +61,7 @@ img {
 
 .key-skill {
     height: 600px;
-    width: 95%;
+    width: 350px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -152,6 +152,9 @@ img {
     .links {
         flex-direction: row;
         animation: load-from-right .2s ease-in;
+    }
+    .key-skill {
+        width: auto;
     }
     .mainpage-top {
         height: 950px;
