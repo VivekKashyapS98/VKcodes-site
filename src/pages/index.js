@@ -7,6 +7,7 @@ import Instagram from '../images/instagram.svg';
 import Twitter from '../images/twitter.svg';
 import Database from '../images/database.svg';
 import UIDesign from '../images/ui-design.svg';
+import { Link } from "gatsby";
 import '../../main.css';
 
 export default function Home({data}) {
@@ -70,34 +71,31 @@ export default function Home({data}) {
     <br />
     <div className="projects">
       <h1>My Recent Work</h1>
-      <div className="projects">
-        <h2>TweetBook</h2>
-        <p>A social media clone</p>
-        <div style={{margin: '0 10px'}}>
-          <h4>Technologies Used:</h4>
-          <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript(React.js, Redux,js)</li>
-            <li>MaterialUI</li>
-            <li>Node.js, Express.js</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-        <a href="https://tweetbook-in.herokuapp.com" target="_blank" rel="noopener noreferrer">visit TweetBook</a>
-      </div>
-      <br />
-      <div className="projects">
-        <h2>HotPopTime</h2>
-        <p>A Movie and TV site</p>
-        <div style={{margin: '0 10px'}}>
-          <h4>Technologies Used:</h4>
-          <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript(React.js)</li>
-            <li>Bootstrap</li>
-          </ul>
-        </div>
-        <a href="https://hotpoptime-in.netlify.app" target="_blank" rel="noopener noreferrer">visit HotPopTime</a>
+      <div className="skill-columns">
+        <Link
+          style={{
+            color: 'white',
+            backgroundColor: '#062b47',
+            margin: '20px',
+            padding: '10px 50px',
+            textDecoration: 'none'
+          }}
+          to="/project1"
+        >
+          TweetBook
+        </Link>
+        <Link
+          style={{
+            color: 'white',
+            backgroundColor: '#062b47',
+            margin: '20px',
+            padding: '10px 50px',
+            textDecoration: 'none'
+          }}
+          to="/project2"
+        >
+          HotPopTime
+        </Link>
       </div>
     </div>
   </React.Fragment>
