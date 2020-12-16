@@ -26,7 +26,7 @@ img {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    animation: load-from-top .5s ease-in;
+    animation: load-from-top .3s ease-in;
 }
 
 .mainpage-top {
@@ -159,6 +159,7 @@ img {
     }
     .key-skill {
         margin: 0;
+        margin: 10px 0;
     }
     .mainpage-top {
         height: 950px;

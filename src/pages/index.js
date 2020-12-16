@@ -98,7 +98,6 @@ export default function Home({data}) {
           </ul>
         </div>
         <a href="https://hotpoptime-in.netlify.app" target="_blank" rel="noopener noreferrer">visit HotPopTime</a>
-        <iframe title="HotPopTime" style={{width: '100%',height: '600px', borderRadius: '10px'}} src="https://hotpoptime-in.netlify.app" />
       </div>
     </div>
   </React.Fragment>
