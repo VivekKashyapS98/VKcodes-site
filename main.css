@@ -26,7 +26,7 @@ img {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    animation: load-from-top .2s ease-in;
+    animation: load-from-top .5s ease-in;
 }
 
 .mainpage-top {
@@ -43,7 +43,7 @@ img {
 
 .intro-info {
     padding: 100px;
-    animation: load-from-bottom .4s linear;
+    animation: load-from-bottom .5s linear;
 }
 
 .key-skills {
@@ -97,22 +97,22 @@ img {
 
 .para-1 {
     color: white;
-    animation: load-from-right .4s ease-in;
+    animation: load-from-right .5s ease-in;
 }
 
 .para-2 {
     color: white;
-    animation: load-from-right .6s ease-in;
+    animation: load-from-right .8s ease-in;
 }
 
 .para-3 {
     color: white;
-    animation: load-from-right .8s ease-in;
+    animation: load-from-right 1.1s ease-in;
 }
 
 .para-4 {
     color: white;
-    animation: load-from-right 1s ease-in;
+    animation: load-from-right 1.4s ease-in;
 }
 
 @keyframes load-from-right {
@@ -159,7 +159,6 @@ img {
     }
     .key-skill {
         margin: 0;
-        width: 260px;
     }
     .mainpage-top {
         height: 950px;
@@ -171,7 +170,7 @@ img {
         padding: 50px;
     }
     .key-skills {
-        padding: 5px;
         margin: 0 20px;
+        padding: 5px;
     }
 }
