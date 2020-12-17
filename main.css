@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
 
 * {
     font-family: 'Nunito', sans-serif;
@@ -7,6 +8,11 @@
 }
 
 .visit-site {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: #001220;
     margin: 10px;
@@ -116,6 +122,34 @@ img {
     align-items: center;
 }
 
+footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #001130;
+    padding: 30px;
+}
+
+.vivek-image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.sign {
+    font-family: 'Montez', cursive;
+}
+
+.mail-me {
+    margin: 0 10px;
+    padding: 0;
+    filter: invert(1);
+    width: 30px;
+    cursor: pointer;
+}
+
 .para-1 {
     color: white;
     animation: load-from-right .5s ease-in;
@@ -204,5 +238,8 @@ img {
     .key-skills {
         margin: 0 10px;
         padding: 5px;
+    }
+    footer {
+        padding: 10px;
     }
 }
