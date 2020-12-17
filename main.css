@@ -23,6 +23,14 @@
     box-shadow: 1px 2px 2px 2px #999999;
 }
 
+.project-hover:hover {
+    transform: scale(1.02);
+    filter: brightness(1.2);
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    animation: hover-size .15s linear alternate;
+}
+
 .my-name {
     color: white;
     font-size: 80px;
@@ -100,6 +108,7 @@ img {
 }
 
 .projects {
+    text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -135,6 +144,15 @@ img {
     100% {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+@keyframes hover-size {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.02);
     }
 }
 

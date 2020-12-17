@@ -8,6 +8,8 @@ import Twitter from '../images/twitter.svg';
 import Database from '../images/database.svg';
 import UIDesign from '../images/ui-design.svg';
 import { Link } from "gatsby";
+import TBlogo from '../images/projectpics/tb_logo.jpeg';
+import HPTlogo from '../images/projectpics/hpt_logo.jpg';
 import '../../main.css';
 
 export default function Home({data}) {
@@ -73,28 +75,34 @@ export default function Home({data}) {
       <h1>My Recent Work</h1>
       <div className="skill-columns">
         <Link
+          className="project-hover"
           style={{
-            color: 'white',
-            backgroundColor: '#062b47',
+            width: '300px',
+            height: '300px',
+            borderRadius: '10px',
+            boxShadow: '2px 2px 2px 2px #555555',
+            background: `url(${TBlogo}) center no-repeat`,
+            backgroundSize: '300px',
             margin: '20px',
-            padding: '10px 50px',
             textDecoration: 'none'
           }}
           to="/project1"
         >
-          TweetBook
         </Link>
         <Link
+          className="project-hover"
           style={{
-            color: 'white',
-            backgroundColor: '#062b47',
+            width: '300px',
+            height: '300px',
+            borderRadius: '10px',
+            boxShadow: '2px 2px 2px 2px #555555',
+            background: `url(${HPTlogo}) center no-repeat`,
+            backgroundSize: '300px',
             margin: '20px',
-            padding: '10px 50px',
             textDecoration: 'none'
           }}
           to="/project2"
         >
-          HotPopTime
         </Link>
       </div>
     </div>

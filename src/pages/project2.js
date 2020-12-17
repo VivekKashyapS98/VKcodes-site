@@ -40,7 +40,7 @@ export default () => {
     return (
         <div className="projects">
           <h1>HotPopTime</h1>
-          <p>A Movie and TV site</p>
+          <p>Explore the latest and gratest Movies and TV shows right away. HotPopTime helps you to stay up-to-date. Liked a Movie/TV show? Then know the similar ones just by scrolling towards the bottom of the movie/show.</p>
           <div style={{margin: '0 10px'}}>
             <h4>Technologies Used:</h4>
             <ul>
