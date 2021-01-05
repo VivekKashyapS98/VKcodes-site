@@ -10,7 +10,7 @@ import UIDesign from '../images/ui-design.svg';
 import { Link } from "gatsby";
 import TBlogo from '../images/projectpics/tb_logo.jpeg';
 import HPTlogo from '../images/projectpics/hpt_logo.jpg';
-import Vivek from '../images/vivek.jpg';
+import Vivek from '../images/vivek.jpeg';
 import '../../main.css';
 
 export default function Home({data}) {
