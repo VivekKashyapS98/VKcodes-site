@@ -31,7 +31,7 @@ export default function Home({data}) {
         <p className="para-1">A highly focused, getting things done in customer oriented manner.</p>
         <p className="para-2">End result oriented developer and designer, figuring out the best solution to the given software problem.</p>
         <p className="para-3">Handling the issues wisely by investigating deep into the problem and using resources to it's best.</p>
-        <p className="para-4">This quote describes me better: "Simplicity is the gratest sophestication (simple == superb)"</p>
+        <p className="para-4">This quote describes me better: "Simplicity is the greatest sophistication (simple == superb)"</p>
       </div>
     </div>
     <div className="key-skills">
