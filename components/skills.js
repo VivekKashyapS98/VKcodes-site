@@ -18,6 +18,7 @@ export default function Skills() {
           <ul>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>React.js</li>
             <li>Redux.js</li>
             <li>MaterialUI</li>
@@ -34,7 +35,6 @@ export default function Skills() {
           <ul>
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>Mongoose.js</li>
           </ul>
         </div>
         <div className="key-skill">
