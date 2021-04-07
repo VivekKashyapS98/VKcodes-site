@@ -54,7 +54,7 @@ export default function Intro() {
           />
         </a>
         <a
-          href="https://twitter.com/Vivek_S98"
+          href="https://twitter.com/TheTweetOfGod"
           target="_blank"
           rel="noopener noreferrer"
         >
