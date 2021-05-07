@@ -24,8 +24,9 @@ export default function Skills() {
             <li>HTML/CSS</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
-            <li>React.js</li>
-            <li>Redux.js</li>
+            <li>ReactJS</li>
+            <li>ReduxJS</li>
+            <li>GatsbyJS</li>
             <li>MaterialUI</li>
             <li>Bootstrap</li>
           </ul>
@@ -43,8 +44,10 @@ export default function Skills() {
             thoughtful interactions.
           </p>
           <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>Golang</li>
+            <li>goFiber</li>
           </ul>
         </div>
         <div className="key-skill">
