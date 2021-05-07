@@ -16,7 +16,7 @@ export default function Intro() {
         >
           <img
             className="img"
-            style={{ color: "white", width: "25px" }}
+            style={{ color: "white", width: "25px", cursor: "pointer" }}
             src={Linkedin}
             alt="LinkedIn"
           />
@@ -28,7 +28,7 @@ export default function Intro() {
         >
           <img
             className="img"
-            style={{ color: "white", width: "25px" }}
+            style={{ color: "white", width: "25px", cursor: "pointer" }}
             src={Github}
             alt="GitHub"
           />
@@ -40,7 +40,7 @@ export default function Intro() {
         >
           <img
             className="img"
-            style={{ color: "white", width: "25px" }}
+            style={{ color: "white", width: "25px", cursor: "pointer" }}
             src={Facebook}
             alt="Facebook"
           />
@@ -52,7 +52,7 @@ export default function Intro() {
         >
           <img
             className="img"
-            style={{ color: "white", width: "25px" }}
+            style={{ color: "white", width: "25px", cursor: "pointer" }}
             src={Instagram}
             alt="Instagram"
           />
@@ -64,7 +64,7 @@ export default function Intro() {
         >
           <img
             className="img"
-            style={{ color: "white", width: "25px" }}
+            style={{ color: "white", width: "25px", cursor: "pointer" }}
             src={Twitter}
             alt="Twitter"
           />
