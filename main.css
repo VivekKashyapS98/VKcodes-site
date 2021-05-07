@@ -1,245 +1,245 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
 
 * {
-    font-family: 'Nunito', sans-serif;
-    cursor: default;
-    color: #001220;
+  font-family: "Nunito", sans-serif;
+  cursor: default;
+  color: #001220;
 }
 
 .visit-site {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #001220;
-    margin: 10px;
-    box-shadow: 2px 2px 2px 2px #999999;
-    padding: 5px 50px;
-    border-radius: 10px;
-    text-decoration: none;
-    -webkit-transition-delay: .05s;
-    transition-delay: .05s;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #001220;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px #999999;
+  padding: 5px 50px;
+  border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
 }
 
 .visit-site:hover {
-    background-color: #062b47;
-    box-shadow: 1px 2px 2px 2px #999999;
+  background-color: #062b47;
+  box-shadow: 1px 2px 2px 2px #999999;
 }
 
 .project-hover:hover {
-    transform: scale(1.02);
-    filter: brightness(1.2);
-    -webkit-transition-duration: .15s;
-    transition-duration: .15s;
-    animation: hover-size .15s linear alternate;
+  transform: scale(1.02);
+  filter: brightness(1.2);
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  animation: hover-size 0.15s linear alternate;
 }
 
 .my-name {
-    color: white;
-    font-size: 80px;
-    font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 80px;
+  font-family: "Playfair Display", serif;
 }
 
-img {
-    margin: 20px;
+.img {
+  margin: 20px;
 }
 
 .links {
-    filter: invert(1);
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    animation: load-from-top .3s ease-in;
+  filter: invert(1);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  animation: load-from-top 0.3s ease-in;
 }
 
 .mainpage-top {
-    background: #001220;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    height: 800px;
+  background: #001220;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 800px;
 }
 
 .intro-info {
-    padding: 100px;
-    animation: load-from-bottom .5s linear;
+  padding: 100px;
+  animation: load-from-bottom 0.5s linear;
 }
 
 .key-skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-50px);
-    background-color: whitesmoke;
-    border: #001220 solid 1px;
-    margin: 0 200px;
-    padding: 30px;
-    border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50px);
+  background-color: whitesmoke;
+  border: #001220 solid 1px;
+  margin: 0 200px;
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .key-skill {
-    height: 600px;
-    width: 350px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border-radius: 20px;
+  height: 600px;
+  width: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .skill-columns {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .intro-about {
-    padding: 10px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .projects {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-    color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #001130;
-    padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #001130;
+  padding: 30px;
 }
 
 .vivek-image {
-    width: 300px;
-    border-radius: 10px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 .sign {
-    font-family: 'Montez', cursive;
+  font-family: "Montez", cursive;
 }
 
 .mail-me {
-    margin: 0 10px;
-    padding: 0;
-    filter: invert(1);
-    width: 30px;
-    cursor: pointer;
+  margin: 0 10px;
+  padding: 0;
+  filter: invert(1);
+  width: 30px;
+  cursor: pointer;
 }
 
 .para-1 {
-    color: white;
-    animation: load-from-right .5s ease-in;
+  color: white;
+  animation: load-from-right 0.5s ease-in;
 }
 
 .para-2 {
-    color: white;
-    animation: load-from-right .8s ease-in;
+  color: white;
+  animation: load-from-right 0.8s ease-in;
 }
 
 .para-3 {
-    color: white;
-    animation: load-from-right 1.1s ease-in;
+  color: white;
+  animation: load-from-right 1.1s ease-in;
 }
 
 .para-4 {
-    color: white;
-    animation: load-from-right 1.4s ease-in;
+  color: white;
+  animation: load-from-right 1.4s ease-in;
 }
 
 @keyframes load-from-right {
-    0% {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes hover-size {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.02);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.02);
+  }
 }
 
 @keyframes load-from-bottom {
-    0% {
-        transform: translateY(50%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes load-from-top {
-    0% {
-        transform: translateY(-50%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .links {
-        flex-direction: row;
-        animation: load-from-right .2s ease-in;
-    }
-    .intro-about {
-        width: auto;
-        padding: 5px;
-    }
-    .key-skill {
-        width: 90%;
-        margin: 0;
-        margin: 10px 0;
-    }
-    .mainpage-top {
-        height: 950px;
-    }
-    .my-name {
-        font-size: xx-large;
-    }
-    .intro-info {
-        padding: 50px;
-    }
-    .key-skills {
-        margin: 0 10px;
-        padding: 5px;
-    }
-    footer {
-        padding: 10px;
-    }
+  .links {
+    flex-direction: row;
+    animation: load-from-right 0.2s ease-in;
+  }
+  .intro-about {
+    width: auto;
+    padding: 5px;
+  }
+  .key-skill {
+    width: 90%;
+    margin: 0;
+    margin: 10px 0;
+  }
+  .mainpage-top {
+    height: 950px;
+  }
+  .my-name {
+    font-size: xx-large;
+  }
+  .intro-info {
+    padding: 50px;
+  }
+  .key-skills {
+    margin: 0 10px;
+    padding: 5px;
+  }
+  footer {
+    padding: 10px;
+  }
 }

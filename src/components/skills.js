@@ -1,7 +1,7 @@
 import React from "react";
-import Server from "../src/images/server.svg";
-import Database from "../src/images/database.svg";
-import UIDesign from "../src/images/ui-design.svg";
+import Server from "../images/server.svg";
+import Database from "../images/database.svg";
+import UIDesign from "../images/ui-design.svg";
 
 export default function Skills() {
   return (
@@ -9,7 +9,12 @@ export default function Skills() {
       <h1 style={{ color: "#001220" }}>Key Skills</h1>
       <div className="skill-columns">
         <div className="key-skill">
-          <img style={{ width: "80px" }} src={UIDesign} alt="design" />
+          <img
+            className="img"
+            style={{ width: "80px" }}
+            src={UIDesign}
+            alt="design"
+          />
           <h2>Front-end Developer</h2>
           <p className="intro-about">
             I value simple content structure, and enjoy bringing ideas to life
@@ -26,7 +31,12 @@ export default function Skills() {
           </ul>
         </div>
         <div className="key-skill">
-          <img style={{ width: "80px" }} src={Server} alt="design" />
+          <img
+            className="img"
+            style={{ width: "80px" }}
+            src={Server}
+            alt="design"
+          />
           <h2>Back-end Developer</h2>
           <p className="intro-about">
             I like to code things from scratch, clean design patterns, and
@@ -38,7 +48,12 @@ export default function Skills() {
           </ul>
         </div>
         <div className="key-skill">
-          <img style={{ width: "80px" }} src={Database} alt="design" />
+          <img
+            className="img"
+            style={{ width: "80px" }}
+            src={Database}
+            alt="design"
+          />
           <h2>Database</h2>
           <p className="intro-about">
             I like designing schemas which are consistant and easy to interact

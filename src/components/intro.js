@@ -1,9 +1,9 @@
 import React from "react";
-import Linkedin from "../src/images/linkedin.svg";
-import Github from "../src/images/github.svg";
-import Facebook from "../src/images/facebook.svg";
-import Instagram from "../src/images/instagram.svg";
-import Twitter from "../src/images/twitter.svg";
+import Linkedin from "../images/linkedin.svg";
+import Github from "../images/github.svg";
+import Facebook from "../images/facebook.svg";
+import Instagram from "../images/instagram.svg";
+import Twitter from "../images/twitter.svg";
 
 export default function Intro() {
   return (
@@ -15,6 +15,7 @@ export default function Intro() {
           rel="noopener noreferrer"
         >
           <img
+            className="img"
             style={{ color: "white", width: "25px" }}
             src={Linkedin}
             alt="LinkedIn"
@@ -26,6 +27,7 @@ export default function Intro() {
           rel="noopener noreferrer"
         >
           <img
+            className="img"
             style={{ color: "white", width: "25px" }}
             src={Github}
             alt="GitHub"
@@ -37,6 +39,7 @@ export default function Intro() {
           rel="noopener noreferrer"
         >
           <img
+            className="img"
             style={{ color: "white", width: "25px" }}
             src={Facebook}
             alt="Facebook"
@@ -48,6 +51,7 @@ export default function Intro() {
           rel="noopener noreferrer"
         >
           <img
+            className="img"
             style={{ color: "white", width: "25px" }}
             src={Instagram}
             alt="Instagram"
@@ -59,6 +63,7 @@ export default function Intro() {
           rel="noopener noreferrer"
         >
           <img
+            className="img"
             style={{ color: "white", width: "25px" }}
             src={Twitter}
             alt="Twitter"
