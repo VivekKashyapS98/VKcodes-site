@@ -27,6 +27,7 @@ export default function Skills() {
             <li>ReactJS</li>
             <li>ReduxJS</li>
             <li>GatsbyJS</li>
+            <li>NextJS</li>
             <li>MaterialUI</li>
             <li>Bootstrap</li>
           </ul>
