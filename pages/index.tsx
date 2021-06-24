@@ -11,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className="text-6xl">
+      <main className="m-auto text-center">
+        <h1 className="text-6xl font-semibold">
           Welcome to{" "}
           <a
             className="text-blue-500 hover:underline"
@@ -29,10 +29,10 @@ export default function Home() {
           </code>
         </p>
 
-        <div className="w-2/4 grid grid-cols-2 place-content-center place-items-stretch gap-2 m-5">
+        <div className="m-auto w-2/4 grid md:grid-cols-2 place-content-center place-items-stretch gap-3">
           <a
             href="https://nextjs.org/docs"
-            className="group flex flex-col items-center px-5 border border-gray-100 text-center rounded-lg hover:border-blue-500  delay-75"
+            className="group flex flex-col items-center px-5 border border-gray-100 text-center rounded-lg hover:border-blue-500"
           >
             <h2 className="text-left text-2xl mx-2 my-4 group-hover:text-blue-500">
               Documentation &rarr;
@@ -43,7 +43,7 @@ export default function Home() {
           </a>
 
           <a
-            className="group flex flex-col items-center px-5  border border-gray-100 text-center rounded-lg hover:border-blue-500  delay-75"
+            className="group flex flex-col items-center px-5  border border-gray-100 text-center rounded-lg hover:border-blue-500"
             href="https://nextjs.org/learn"
           >
             <h2 className="text-left text-2xl mx-2 my-5 group-hover:text-blue-500">
@@ -56,7 +56,7 @@ export default function Home() {
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
-            className="group flex flex-col items-center px-5 border border-gray-100 text-center rounded-lg hover:border-blue-500 delay-75"
+            className="group flex flex-col items-center px-5 border border-gray-100 text-center rounded-lg hover:border-blue-500"
           >
             <h2 className="text-left text-2xl mx-2 my-5 group-hover:text-blue-500">
               Examples &rarr;
@@ -68,7 +68,7 @@ export default function Home() {
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="group flex flex-col items-center px-5 border border-gray-100 text-center rounded-lg hover:border-blue-500 delay-75"
+            className="group flex flex-col items-center px-5 border border-gray-100 text-center rounded-lg hover:border-blue-500"
           >
             <h2 className="text-left text-2xl mx-2 my-5 group-hover:text-blue-500">
               Deploy &rarr;
