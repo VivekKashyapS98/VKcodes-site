@@ -1,6 +1,15 @@
-export default function Button(props: { text: string }) {
+interface Props {
+  text: string;
+  onClick?: any;
+  onChange?: any;
+}
+
+export default function Button(props: Props) {
   return (
-    <button className=" my-auto py-2 px-4 bg-purple-500 text-white text-lg font-medium text-center shadow-xl rounded-lg transition duration-200 ease-in cursor-pointer hover:bg-purple-400  hover:shadow-2xl active:bg-purple-700 active:text-white">
+    <button
+      className=" my-auto py-2 px-4 bg-purple-500 text-white text-lg font-medium text-center shadow-lg rounded-lg transition duration-100 ease-in cursor-pointer hover:bg-purple-400  hover:shadow-xl active:bg-purple-700 active:shadow-md active:text-white"
+      onClick={() => props.onClick()}
+    >
       {props.text}
     </button>
   );
