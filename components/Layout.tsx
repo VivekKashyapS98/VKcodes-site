@@ -22,7 +22,7 @@ export default function Layout({ toggle, theme, children }: any) {
             <Button text="Blog" onClick={() => router.push("/blog")} />
           </div>
         </div>
-        {children}
+        <div className="dark:text-gray-100">{children}</div>
       </div>
     </div>
   );
