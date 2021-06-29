@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import CodeReview from "../sources/svg/code_review.svg";
+import BackendLogos from "../components/BackendLogos";
+import DatabaseLogos from "../components/DatabaseLogos";
+import FrontendLogos from "../components/FrontendLogos";
+import PreferedStack from "../components/PreferedStack";
+import introPic from "../sources/svg/developer_activity.svg";
 
 export default function Home() {
   return (
@@ -11,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-full flex flex-row flex-wrap-reverse justify-around items-center p-2 bg-gray-100 rounded-lg md:p-5 md:h-[600px] dark:bg-gray-700">
-        <Image src={CodeReview} height={450} width={450} alt="Vivek S" />
+        <Image src={introPic} height={450} width={450} alt="Vivek S" />
         <div className="m-5">
           <h1 className="text-4xl sm:text-5xl font-mono">
             Hi!..
@@ -24,8 +28,22 @@ export default function Home() {
       <br />
       <hr />
       <br />
-      <div>
-        <h1 className="text-3xl">Tech Stacks</h1>
+      <div className="mx-4 md:mx-0">
+        <h1 className="text-3xl">Skills</h1>
+        <br />
+        <FrontendLogos />
+        <br />
+        <hr className="w-3/5 mx-auto" />
+        <br />
+        <BackendLogos />
+        <br />
+        <hr className="w-3/5 mx-auto" />
+        <br />
+        <DatabaseLogos />
+        <br />
+        <hr className="w-3/5 mx-auto" />
+        <br />
+        <PreferedStack />
       </div>
     </div>
   );
