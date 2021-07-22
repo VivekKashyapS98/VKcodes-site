@@ -8,7 +8,7 @@ import flask from "../sources/logos/flask.svg";
 export default function BackendLogos() {
   return (
     <div>
-      <h2 className="text-2xl text-center">Back-end</h2>
+      <h2 className="text-xl md:text-2xl text-center">Back-end</h2>
       <br />
       <div className="flex flex-row flex-wrap justify-center">
         <div className="m-4 flex flex-col justify-center items-center">

@@ -11,7 +11,7 @@ import tailwind from "../sources/logos/tailwindcss.svg";
 export default function FrontendLogos() {
   return (
     <div>
-      <h2 className="text-2xl text-center">Front-end</h2>
+      <h2 className="text-xl md:text-2xl text-center">Front-end</h2>
       <br />
       <div className="flex flex-row flex-wrap justify-center">
         <div className="m-4 flex flex-col items-center">
