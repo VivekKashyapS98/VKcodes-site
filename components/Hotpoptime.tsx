@@ -28,7 +28,7 @@ export default function Hotpoptime() {
       <br />
 
       <h3 className="sub-heading text-center">Tools & Technologies</h3>
-      <div className="flex flex-row flex-wrap justify-around">
+      <div className="m-2 flex flex-row flex-wrap justify-around">
         <div className="flex flex-row flex-wrap justify-center">
           <div className="m-4 flex flex-col justify-center items-center">
             <Image

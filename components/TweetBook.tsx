@@ -31,7 +31,7 @@ export default function TweetBook() {
       <br />
 
       <h3 className="sub-heading text-center">Tools & Technologies</h3>
-      <div className="flex flex-row flex-wrap justify-around">
+      <div className="m-2 flex flex-row flex-wrap justify-around">
         <div className="flex flex-row flex-wrap items-center">
           <h2 className="text-lg font-semibold md:text-xl text-center">
             Front-end:

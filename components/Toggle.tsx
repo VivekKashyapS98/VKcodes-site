@@ -19,17 +19,19 @@ export default function Toggle({ toggle }: any) {
           onChange={setEnabled}
           className={`${
             enabled ? "bg-gray-500" : "bg-gray-200"
-          } relative mx-3 inline-flex items-center h-9 rounded-full w-14 transition-colors focus:outline-none `}
+          } relative mx-2 md:mx-4 inline-flex items-center h-7 w-10 md:h-9 md:w-14 rounded-full transition-colors focus:outline-none `}
         >
           <span
             className={`${
-              enabled ? "translate-x-6 bg-gray-800" : "translate-x-1 bg-white"
-            } flex justify-center items-center w-7 h-7 transform  rounded-full transition-transform`}
+              enabled
+                ? "translate-x-4 md:translate-x-6 bg-gray-800"
+                : "translate-x-1 bg-white"
+            } flex justify-center items-center h-5 w-5 md:w-7 md:h-7 transform  rounded-full transition-transform`}
           >
             {enabled ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-4 w-4 md:h-5 md:w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -41,7 +43,7 @@ export default function Toggle({ toggle }: any) {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-4 w-4 md:h-5 md:w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
