@@ -19,7 +19,7 @@ export default function Toggle({ toggle }: any) {
           onChange={setEnabled}
           className={`${
             enabled ? "bg-gray-500" : "bg-gray-200"
-          } relative mx-2 md:mx-4 inline-flex items-center h-7 w-10 md:h-9 md:w-14 rounded-full transition-colors focus:outline-none `}
+          } bg-opacity-50 relative mx-2 md:mx-4 inline-flex items-center h-7 w-10 md:h-9 md:w-14 rounded-full transition-colors focus:outline-none `}
         >
           <span
             className={`${

@@ -6,6 +6,7 @@ import HPT3 from "../sources/images/HPTv2.0_3.png";
 import HPT4 from "../sources/images/HPTv2.0_4.png";
 import Head from "next/head";
 import Image from "next/image";
+import Button from "./Button";
 
 export default function Hotpoptime() {
   return (
@@ -97,6 +98,27 @@ export default function Hotpoptime() {
           <h3 className="text-center font-semibold">Navigate with ease</h3>
         </div>
       </div>
+      <br />
+      <div className="m-2 flex flex-row flex-wrap justify-between">
+        <a
+          className="m-2"
+          href="https://github.com/VivekKashyapS98/HotPopTime"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <Button>Visit Source</Button>
+        </a>
+        <a
+          className="m-2"
+          href="https://hotpoptime.vercel.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <Button>Visit HotPopTime</Button>
+        </a>
+      </div>
+
+      <br />
     </>
   );
 }

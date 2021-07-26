@@ -9,6 +9,7 @@ import TB3 from "../sources/images/tb3.png";
 import TB4 from "../sources/images/tb4.png";
 import Image from "next/image";
 import Head from "next/head";
+import Button from "./Button";
 
 export default function TweetBook() {
   return (
@@ -153,6 +154,35 @@ export default function TweetBook() {
           <h3 className="text-center font-semibold">Profile</h3>
         </div>
       </div>
+      <br />
+      <div className="m-2 flex flex-row flex-wrap justify-between">
+        <a
+          className="m-2"
+          href="https://github.com/VivekKashyapS98/TweetBook-client"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <Button>View Frontend Source</Button>
+        </a>
+        <a
+          className="m-2"
+          href="https://github.com/VivekKashyapS98/TweetBook"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <Button>View Backend Source</Button>
+        </a>
+        <a
+          className="m-2"
+          href="https://tweetbook-in.herokuapp.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <Button>Visit TweetBook</Button>
+        </a>
+      </div>
+
+      <br />
     </>
   );
 }

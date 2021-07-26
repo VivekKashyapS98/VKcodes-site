@@ -5,16 +5,19 @@ import materialui from "../sources/logos/material-ui.svg";
 import VIA1 from "../sources/images/via_1.png";
 import Image from "next/image";
 import Head from "next/head";
+import ImportantNote from "./ImportantNote";
+import Button from "./Button";
 
 export default function VoidIsAll() {
   return (
     <>
       <Head>
-        <title>TweetBook | VKcodes</title>
-        <meta property="og:title" content="TweetBook | VKcodes" key="title" />
+        <title>VoidIsAll | VKcodes</title>
+        <meta property="og:title" content="VodIsAll | VKcodes" key="title" />
         <meta
           name="description"
-          content="TweetBook by VKcodes is a social media clone."
+          content="VoidIsAll by VKcodes is a place where ancient spiritual wisdom is decoded in
+          straight practical and perceivable way."
           key="description"
         />
       </Head>
@@ -118,12 +121,19 @@ export default function VoidIsAll() {
         </div>
       </div>
       <br />
-      <div className="m-2 p-2 md:p-4 md:m-4 rounded-md border-l-4 border-purple-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100">
-        <p>
-          This project is intended for the real audience (spiritual seekers).
-          So, for more information, visit the site.
-        </p>
-      </div>
+      <a
+        className="flex justify-around"
+        href="https://voidisall.vercel.app/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <Button>Visit VoidIsAll</Button>
+      </a>
+      <br />
+      <ImportantNote>
+        This is a serious project which is intended for the real audience
+        (spiritual seekers). So, for more information, please visit the site.
+      </ImportantNote>
     </>
   );
 }
