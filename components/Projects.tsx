@@ -11,6 +11,7 @@ export default function Projects() {
   return (
     <>
       <h1 className="main-heading">Projects</h1>
+      <br />
       <div className="flex flex-row flex-wrap justify-around">
         <Image
           className="rounded-3xl"

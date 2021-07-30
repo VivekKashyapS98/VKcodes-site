@@ -9,7 +9,7 @@ export default function ImportantNote(props: Props) {
     <div className="m-2 p-2 md:p-4 md:m-4 flex flex-nowrap items-center rounded-md border-l-4 border-purple-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-8 w-8 mr-2"
+        className="h-16 w-16 sm:h-8 sm:w-8 mr-2"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

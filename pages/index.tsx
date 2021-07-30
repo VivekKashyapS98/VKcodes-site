@@ -6,6 +6,7 @@ import FrontendLogos from "../components/FrontendLogos";
 import PreferedStack from "../components/PreferedStack";
 import Projects from "../components/Projects";
 import introPic from "../sources/svg/developer_activity.svg";
+import Social from "./Social";
 
 export default function Home() {
   return (
@@ -58,6 +59,10 @@ export default function Home() {
       </section>
       <br />
       <hr />
+      <br />
+      <section className="mx-4 md:mx-0">
+        <Social />
+      </section>
       <br />
     </div>
   );

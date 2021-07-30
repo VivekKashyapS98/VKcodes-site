@@ -26,7 +26,7 @@ export default function Layout({ toggle, theme, children }: any) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="h-20 sticky z-10 bg-white top-0 border-b border-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-10 firefox:bg-opacity-70 flex flex-row px-4 justify-between items-center dark:bg-gray-700 dark:firefox:bg-opacity-70 dark:bg-opacity-10 dark:text-gray-100">
+      <header className="h-20 sticky z-10 bg-white top-0 border-b-2 border-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-10 firefox:bg-opacity-70 flex flex-row px-4 justify-between items-center dark:bg-gray-700 dark:firefox:bg-opacity-70 dark:bg-opacity-10 dark:border-gray-500 dark:text-gray-100">
         <h1 className="text-2xl font-bold font-mono md:text-4xl">VKcodes</h1>
         <nav className="flex flex-row flex-nowrap">
           <Toggle toggle={toggle} />
