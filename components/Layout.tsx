@@ -47,7 +47,7 @@ export default function Layout({ toggle, theme, children }: any) {
         </nav>
       </header>
       <div className="container m-auto dark:text-gray-100">
-        <div>{children}</div>
+        <div className="min-h-screen">{children}</div>
       </div>
       <footer className="bg-gray-100 flex flex-col dark:bg-gray-700 dark:text-gray-100">
         <h1

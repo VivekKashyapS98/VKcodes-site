@@ -20,7 +20,7 @@ export default function Home() {
           key="description"
         />
       </Head>
-      <section className="w-full font-semibold flex flex-row flex-wrap-reverse justify-around items-center p-2 bg-gray-100 rounded-lg md:p-5 md:h-[600px] dark:bg-gray-700">
+      <section className="mt-0 md:mt-4 w-full font-semibold flex flex-row flex-wrap-reverse justify-around items-center p-2 bg-gray-100 rounded-lg md:p-5 md:h-[600px] dark:bg-gray-700">
         <Image src={introPic} height={450} width={450} alt="Vivek S" />
         <div>
           <h1 className="text-4xl sm:text-5xl font-mono">
