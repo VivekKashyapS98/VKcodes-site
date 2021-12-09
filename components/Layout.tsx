@@ -5,8 +5,8 @@ import Head from "next/head";
 
 export default function Layout({ toggle, theme, children }: any) {
   const router = useRouter();
-  const mode = theme === "dark" ? theme : " ";
-  const mainBg = theme === "dark" ? "bg-gray-800" : "";
+  const mode = theme === "dark" ? theme : "";
+  const mainBg = theme === "dark" ? "bg-gray-800" : "bg-white";
   const homeBorder = router.pathname === "/" ? "border-b-2  md:border-b-4" : "";
   const blogBorder = router.pathname.includes("/blog")
     ? "border-b-2  md:border-b-4"
@@ -27,7 +27,11 @@ export default function Layout({ toggle, theme, children }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="h-20 sticky z-10 bg-white top-0 border-b-2 border-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-10 firefox:bg-opacity-70 flex flex-row px-4 justify-between items-center dark:bg-gray-700 dark:firefox:bg-opacity-70 dark:bg-opacity-10 dark:text-gray-100">
-        <h1 className="text-2xl font-bold font-mono md:text-4xl">VKcodes</h1>
+        <Link href="/" passHref>
+          <h1 className="text-2xl font-bold font-mono md:text-4xl cursor-pointer">
+            VKcodes
+          </h1>
+        </Link>
         <nav className="flex flex-row flex-nowrap">
           <Toggle toggle={toggle} />
           <Link href="/" passHref>
