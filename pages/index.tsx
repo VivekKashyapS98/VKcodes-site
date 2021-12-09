@@ -53,7 +53,7 @@ export default function Home() {
           vision on things.
         </p>
         <Button onClick={() => router.push("/skills")}>
-          <h3 className="inline"> Industry Skills</h3>
+          <h3 className="inline">Technical Skills</h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 inline"
