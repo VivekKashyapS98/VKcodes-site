@@ -9,3 +9,7 @@
 .sub-heading {
   @apply text-xl md:text-2xl;
 }
+
+.button {
+  @apply btn btn-primary border-0 bg-indigo-500 shadow-md shadow-indigo-500/50 text-white hover:bg-indigo-600 active:text-white;
+}

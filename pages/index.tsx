@@ -30,7 +30,7 @@ export default function Home() {
             alt="Vivek S"
           />
           <div>
-            <h1 className="text-4xl sm:text-5xl font-mono">
+            <h1 className="text-4xl sm:text-5xl font-mono font-semibold">
               Hi!..
               <br />
               I&apos;m Vivek...

@@ -92,7 +92,7 @@ export default function Projects() {
         />
       </div>
       <hr className="w-4/5 mx-auto my-2 md:my-4" />
-      <div className="flex flex-row flex-wrap justify-around">
+      {/* <div className="flex flex-row flex-wrap justify-around">
         <Image
           className="rounded-3xl"
           src={VIA}
@@ -131,8 +131,8 @@ export default function Projects() {
             </>
           </Button>
         </div>
-      </div>
-      <hr className="w-4/5 mx-auto my-2 md:my-4" />
+      </div> 
+      <hr className="w-4/5 mx-auto my-2 md:my-4" /> */}
       <div className="flex flex-row flex-wrap-reverse justify-around">
         <div className="max-w-sm m-2 md:m-4">
           <h1 className="sub-heading text-center  my-2 md:my-4 font-semibold">

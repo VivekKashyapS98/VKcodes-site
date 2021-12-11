@@ -25,7 +25,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
+    require("daisyui"),
     plugin(function ({ addVariant, e, postcss }) {
       addVariant("firefox", ({ container, separator }) => {
         const isFirefoxRule = postcss.atRule({

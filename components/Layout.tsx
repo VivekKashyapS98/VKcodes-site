@@ -36,14 +36,14 @@ export default function Layout({ toggle, theme, children }: any) {
           <Toggle toggle={toggle} />
           <Link href="/" passHref>
             <h3
-              className={`m-1 sm:text-lg py-1 px-2 md:py-2 md:px-4 transition-gpu delay-100 duration-100 ${homeBorder} border-purple-500 cursor-pointer`}
+              className={`m-1 sm:text-lg py-1 px-2 md:py-2 md:px-4 transition-gpu delay-100 duration-100 ${homeBorder} border-indigo-500 cursor-pointer`}
             >
               Home
             </h3>
           </Link>
           <Link href="/blog" passHref>
             <h3
-              className={`m-1 sm:text-lg py-1 px-2 md:py-2 md:px-4 transition-gpu delay-100 duration-100 ${blogBorder} border-purple-500 cursor-pointer`}
+              className={`m-1 sm:text-lg py-1 px-2 md:py-2 md:px-4 transition-gpu delay-100 duration-100 ${blogBorder} border-indigo-500 cursor-pointer`}
             >
               Blog
             </h3>
