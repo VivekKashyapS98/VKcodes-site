@@ -61,7 +61,7 @@ export default function Layout({ toggle, theme, children }: any) {
           VKcodes
         </h1>
         <h3 className="mb-2 md:m-4 text-lg font-semibold text-center sm:text-xl">
-          Crafted by <span className="text-purple-500">Vivek Kashyap</span>
+          Crafted by <span className="text-indigo-500">Vivek Kashyap</span>
         </h3>
         <h3 className="text-sm text-center sm:text-base">
           © All Rights Reserved {new Date().getFullYear()}
