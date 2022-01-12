@@ -61,7 +61,7 @@ export default function FrontendLogos() {
             src={svelte}
             height={45}
             width={45}
-            alt="GatsbyJS"
+            alt="Svelte"
           />
           <p>Svelte</p>
         </div>
@@ -91,9 +91,9 @@ export default function FrontendLogos() {
             src={materialui}
             height={45}
             width={45}
-            alt="MaterialUI"
+            alt="MUI"
           />
-          <p>MaterialUI</p>
+          <p>MUI</p>
         </div>
         <div className="m-4 flex flex-col justify-center items-center">
           <Image

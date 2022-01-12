@@ -4,6 +4,7 @@ import expressjs from "../sources/logos/express.svg";
 import golang from "../sources/logos/golang.svg";
 import gofiber from "../sources/logos/goFiber.svg";
 import flask from "../sources/logos/flask.svg";
+import gin from "../sources/logos/gin.png";
 
 export default function BackendLogos() {
   return (
@@ -40,6 +41,16 @@ export default function BackendLogos() {
             alt="Go"
           />
           <p>Go</p>
+        </div>
+        <div className="m-4 flex flex-col justify-center items-center">
+          <Image
+            className="rounded-md"
+            src={gin}
+            height={45}
+            width={45}
+            alt="Gin"
+          />
+          <p>Gin</p>
         </div>
         <div className="m-4 flex flex-col justify-center items-center">
           <Image
