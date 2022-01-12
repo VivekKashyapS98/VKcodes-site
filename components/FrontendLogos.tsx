@@ -4,6 +4,7 @@ import typescript from "../sources/logos/typescript.svg";
 import react from "../sources/logos/react.svg";
 import next from "../sources/logos/next-js.svg";
 import gatsby from "../sources/logos/gatsby.svg";
+import svelte from "../sources/logos/svelte.svg";
 import bootstrap from "../sources/logos/bootstrap.svg";
 import materialui from "../sources/logos/material-ui.svg";
 import tailwind from "../sources/logos/tailwindcss.svg";
@@ -53,6 +54,16 @@ export default function FrontendLogos() {
             alt="NextJS"
           />
           <p>NextJS</p>
+        </div>
+        <div className="m-4 flex flex-col justify-center items-center">
+          <Image
+            className="rounded-md"
+            src={svelte}
+            height={45}
+            width={45}
+            alt="GatsbyJS"
+          />
+          <p>Svelte</p>
         </div>
         <div className="m-4 flex flex-col justify-center items-center">
           <Image
