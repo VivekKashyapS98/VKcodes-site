@@ -38,7 +38,7 @@ export default function Skills() {
         though both Flutter and React Native are the most popular cross platform
         mobile app development technologies out there, React Native is prefered
         by most of the companies due to Javascript. Even though every React
-        Native app ships with a Javascript engine which used bridge to
+        Native app ships with a Javascript engine which uses bridge to
         communicate with the native code, most developers use it as it is more
         convenient to build their business logic for both Mobile and
         Web(ReactJS). But on the other hand, Flutter is also being adopted by
