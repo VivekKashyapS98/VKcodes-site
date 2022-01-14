@@ -29,6 +29,7 @@ export default function Skills() {
       <br />
       <MobileStack />
       <br />
+      <hr className="w-3/5 mx-auto" />
       <p className="my-3 mx-3 md:mx-10">
         All of these have their own use cases. For Example, Go and Python are
         comparable in terms of runtime speed and development speed. For
