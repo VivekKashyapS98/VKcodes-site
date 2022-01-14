@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Button from "../components/Button";
 import Projects from "../components/Projects";
 import introPic from "../sources/svg/developer_activity.svg";
-import Social from "./Social";
+import Social from "../components/Social";
 
 export default function Home() {
   const router = useRouter();
@@ -30,7 +30,7 @@ export default function Home() {
             alt="Vivek S"
           />
           <div>
-            <h1 className="text-4xl sm:text-5xl font-mono font-semibold">
+            <h1 className="text-5xl font-mono font-semibold">
               Hi!..
               <br />
               I&apos;m Vivek...

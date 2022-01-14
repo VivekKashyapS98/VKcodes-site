@@ -10,7 +10,7 @@ export default function Social() {
   return (
     <div className="flex flex-col items-center">
       <h3 className="text-center main-heading">Get in touch</h3>
-      <div className="m-2 px-2 maz-w max-w-lg flex flex-row flex-wrap justify-center rounded-full bg-purple-100 dark:bg-gray-700">
+      <div className="m-2 px-2 maz-w max-w-lg flex flex-row flex-wrap justify-center rounded-full bg-indigo-100 dark:bg-gray-700">
         <a
           href="https://www.linkedin.com/in/vivek-kashyap-886bb5144/"
           rel="noreferrer"
