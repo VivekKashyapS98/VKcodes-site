@@ -33,18 +33,18 @@ export default function Skills() {
         All of these have their own use cases. For Example, Go and Python are
         comparable in terms of runtime speed and development speed. For
         development speed, python is prefered by the companies. But for runtime
-        efficiency, Go is prefered by some of them. Same goes to Mobile App
-        Development. Even though both Flutter and React Native are the most
-        popular cross platform mobile app development tools, React Native is
-        prefered by most of the companies due to Javascript. Even though every
-        React Native app ships with a Javascript engine which itself takes lots
-        space and also time to interpret to machine code, most developers use it
-        as it is more convenient for them to build their business logic for both
-        Mobile and Web(ReactJS). But on the other hand, Flutter is also being
-        adopted by the companies due to its near native performance. Dart is the
+        efficiency, Go is prefered. Same goes to Mobile App Development. Even
+        though both Flutter and React Native are the most popular cross platform
+        mobile app development technologies out there, React Native is prefered
+        by most of the companies due to Javascript. Even though every React
+        Native app ships with a Javascript engine which used bridge to
+        communicate with the native code, most developers use it as it is more
+        convenient to build their business logic for both Mobile and
+        Web(ReactJS). But on the other hand, Flutter is also being adopted by
+        most of the companies due to its near native performance. Dart is the
         language used by Flutter which can be compiled both Just in Time(JIT) &
-        Ahed of Time(AOT), and can provide 60-120 fps performance on capable
-        devices.
+        Ahed of Time(AOT), and can provide up to 60-120 fps performance on
+        capable devices.
       </p>
       <br />
     </section>
