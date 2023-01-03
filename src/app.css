@@ -8,6 +8,6 @@
   }
 
   .logo {
-    @apply h-8 w-8 lg:h-10 lg:w-10 m-3 rounded-md flex justify-center items-center;
+    @apply h-10 w-10 m-3 rounded-md flex justify-center items-center;
   }
 }
