@@ -33,7 +33,7 @@
         class="logo"
         target="_blank"
         rel="noreferrer"
-        href="https://reactjs.org/"
+        href="https://react.dev/"
       >
         <img class="logo" src="/logo/react.svg" alt="react" title="React" />
       </a>
