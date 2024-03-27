@@ -114,40 +114,6 @@
         <img class="logo" src="/logo/golang.svg" alt="go" title="Go" />
       </a>
       <a
-        class="logo"
-        target="_blank"
-        rel="noreferrer"
-        href="https://gin-gonic.com/"
-      >
-        <img class="logo" src="/logo/gin.png" alt="gin" title="Gin (Go)" />
-      </a>
-      <a
-        class="logo"
-        target="_blank"
-        rel="noreferrer"
-        href="https://gofiber.io/"
-      >
-        <img
-          class="logo bg-slate-100"
-          src="/logo/goFiber.svg"
-          alt="gofiber"
-          title="Fiber (Go)"
-        />
-      </a>
-      <a
-        class="logo bg-slate-100"
-        target="_blank"
-        rel="noreferrer"
-        href="https://echo.labstack.com/"
-      >
-        <img
-          class="w-[95%]"
-          src="/logo/echo.svg"
-          alt="echo"
-          title="Echo (Go)"
-        />
-      </a>
-      <a
         class="logo bg-slate-100"
         target="_blank"
         rel="noreferrer"
