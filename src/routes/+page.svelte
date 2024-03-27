@@ -37,7 +37,7 @@
       class="pt-32 flex flex-col-reverse xl:flex-row items-center justify-end xl:justify-between"
     >
       <Skills />
-      <img class=" h-60 w-60" src="/image/laptop_wave.png" alt="hi" />
+      <img class="animate-bounce h-60 w-60" src="/image/laptop_wave.png" alt="hi" />
     </section>
   </div>
 </div>
