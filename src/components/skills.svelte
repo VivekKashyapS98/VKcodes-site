@@ -161,19 +161,6 @@
         title="PostgreSQL"
       />
     </a>
-    <a
-      class="logo"
-      target="_blank"
-      rel="noreferrer"
-      href="https://surrealdb.com/"
-    >
-      <img
-        class="logo"
-        src="/logo/surrealdb.svg"
-        alt="surrealdb"
-        title="SurrealDB"
-      />
-    </a>
   </div>
   <div
     class="flex flex-row lg:flex-nowrap items-center border-b-2 border-slate-500"
