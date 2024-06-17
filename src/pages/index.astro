@@ -1,0 +1,45 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Skills from "../components/Skills.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <main>
+      <div class="font-nunito">
+        <div class="px-10 lg:px-24 min-h-screen text-white">
+          <section class="py-10 flex justify-between">
+            <h3 class="text-3xl">Vivek Kashyap</h3>
+            <nav>
+              <a href="#">
+                <h4
+                  class="text-xl transition duration-300 hover:-translate-y-1 cursor-pointer hover:underline"
+                >
+                  blog
+                </h4>
+              </a>
+            </nav>
+          </section>
+          <section class="pt-28">
+            <h1 class="text-7xl">Fullstack Developer</h1>
+          </section>
+          <section
+            class="pt-32 flex flex-col-reverse xl:flex-row items-center justify-end xl:justify-between"
+          >
+            <Skills />
+            <img
+              class="animate-bounce h-60 w-60"
+              src="/image/laptop_wave.png"
+              alt="hi"
+            />
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
